@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:theme="@style/AppTheme.Base"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp">
+
+		<ImageView
+			android:layout_height="60dp"
+			android:layout_width="60dp"
+			android:src="@mipmap/ic_maps"
+			android:layout_marginRight="10dp"
+			android:id="@+id/location_img"
+			android:scaleType="centerCrop"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="IP"
+					android:layout_width="wrap_content"
+					android:textSize="16sp"
+					android:id="@+id/loc_ip"
+					android:layout_marginRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Medium Text"
+					android:layout_width="wrap_content"
+					android:textSize="16sp"
+					android:id="@+id/loc_web"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="city_reg_name_code_con_name_code"
+				android:layout_width="wrap_content"
+				android:textSize="11sp"
+				android:id="@+id/loc_city_rn_rc_zip_cn_cc"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="timezone_lat_long_metro"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:textSize="11sp"
+				android:id="@+id/loc_tz_lat_long_metro"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
